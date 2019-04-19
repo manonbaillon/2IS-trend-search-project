@@ -1,0 +1,280 @@
+@import url('https://fonts.googleapis.com/css?family=Merriweather:100,200,300,300i,400,400i,700');
+@import url('https://fonts.googleapis.com/css?family=Roboto+Slab:400,700');
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,400');
+
+body {
+  font-family: "Open Sans", serif;
+  background: linear-gradient(to right, #e67e22, #e74c3c);
+}
+
+.wrapper {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+
+.results {
+  background: #fff;
+}
+
+
+.main {
+  height: 90vh;
+  background: #fff;
+  box-shadow: 0px 13px 40px -13px rgba(0,0,0,0.75);
+  width: 80%;
+  margin: 0 auto;
+}
+
+.btn {
+  border-radius: 0;
+}
+
+.title {
+  padding-top: 100px;
+  font-family: "Arial Black", Gadget, sans-serif;
+}
+
+.title h1 {
+  font-size: 50px;
+}
+
+.spacer {
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.spacer-bottom {
+  padding-bottom: 20px;
+}
+
+.spacer-top {
+  padding-top: 20px;
+}
+
+input[type="text"] {
+  background-color: transparent;
+  width: 30%;
+  padding-bottom: 4px;
+  height: 60px;
+  color: #000 !important;
+  font-weight: lighter;
+  letter-spacing: 2px;
+  margin-bottom: 30px;
+  font-size: 20px;
+}
+
+
+
+input:-webkit-autofill {
+    -webkit-box-shadow: 0 0 0 30px #2c3e50 inset;
+    -webkit-text-fill-color: #fff !important;
+}
+
+.notfound{}
+.notfound h2{font-size:100px; line-height: 130px; text-align: center; }
+.notfound img{ text-align: center; }
+.notfound h2 span{display: block; color: red; font-size: 170px;}
+
+
+.clear {
+    clear: both;
+}
+.spacer {
+    margin-top: 40px; /* define margin as you see fit */
+}
+
+.spacerup {
+    margin-top: 20px; /* define margin as you see fit */
+}
+
+
+/****** Statistic ******/
+.statistic {
+  margin: 1em 0;
+  text-transform: uppercase;
+  display: inline-block;
+}
+ .statistic .value {
+    font-size: 4em;
+    line-height: 1em;
+    text-align: center;
+  }
+    
+.statistic .text {
+    font-size: 2em;
+    font-weight: bold;
+  }
+    
+  
+.label {
+    color: inherit;
+    display: block;
+    font-size: 1em;
+    text-align: center;
+  }
+
+
+.statistic + .statistic {
+  margin-left: 1.5em;
+}
+
+/*** Horizontal Statistic ***/
+.statistic.horizontal .value .label {
+    display: inline;
+    vertical-align: middle;
+  }
+
+
+
+/*** Float Statistics ***/
+.statistic {
+  &.pull-left {
+    margin-right: 1em;
+  }
+  &.pull-right {
+    margin-left: 1em;
+  }
+}
+
+/****** Statistic Sizes ******/
+.statistic {
+  &.mini .value {
+    font-size: 1em;
+    font-weight: bold;
+  }
+  &.tiny .value {
+    font-size: 2em;
+  }
+  &.small .value {
+    font-size: 3em !important;
+  }
+  &.large .value {
+    font-size: 5em;
+  }
+  &.huge .value {
+    font-size: 6em;
+  }
+}
+
+/****** Statistic Types ******/
+.statistic {
+  &.primary {
+    color: @brand-primary;
+  }
+  
+  &.success {
+    color: @brand-success;
+  }
+  
+  &.info {
+    color: @brand-info;
+  }
+  
+  &.warning {
+    color: @brand-warning;
+  }
+  
+  &.danger {
+    color: @brand-danger;
+  }
+  
+  &.inverted {
+    color: white;
+  }
+  
+}
+
+.card-signin {
+  border: 0;
+  border-radius: 1rem;
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+}
+
+.card-signin .card-title {
+  margin-bottom: 2rem;
+  font-weight: 300;
+  font-size: 1.5rem;
+}
+
+.card-signin .card-body {
+  padding: 2rem;
+}
+
+.form-signin {
+  width: 100%;
+}
+
+.form-signin .btn {
+  font-size: 80%;
+  border-radius: 5rem;
+  letter-spacing: .1rem;
+  font-weight: bold;
+  padding: 1rem;
+  transition: all 0.2s;
+}
+
+.form-label-group {
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.form-label-group input {
+  height: auto;
+  border-radius: 2rem;
+  padding: .875rem .75rem;
+}
+
+.form-label-group>label {
+  position: absolute;
+  top: 0;
+  left: 15px;
+  display: block;
+  width: 100%;
+  margin-bottom: 0;
+  /* Override default `<label>` margin */
+  line-height: 1.5;
+  color: #495057;
+  border: 1px solid transparent;
+  border-radius: .25rem;
+  transition: all .1s ease-in-out;
+}
+
+.form-label-group input::-webkit-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input:-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-ms-input-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::-moz-placeholder {
+  color: transparent;
+}
+
+.form-label-group input::placeholder {
+  color: transparent;
+}
+
+.form-label-group input:not(:placeholder-shown) {
+  padding: .575rem .75rem;
+}
+
+.form-label-group input:not(:placeholder-shown)~label {
+  padding: .115rem .35rem;
+  font-size: 12px;
+  color: #777;
+}
+
+.btn-google {
+  color: white;
+  background-color: #ea4335;
+}
+
+
