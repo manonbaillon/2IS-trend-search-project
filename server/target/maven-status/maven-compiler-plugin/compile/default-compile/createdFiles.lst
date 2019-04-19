@@ -1,0 +1,12 @@
+com\miage\trendsearch\DAO\TwitterAPI.class
+com\miage\trendsearch\utils\Constantes.class
+com\miage\trendsearch\model\User.class
+com\miage\trendsearch\service\TwitterService.class
+com\miage\trendsearch\DAO\FacebookAPI.class
+com\miage\trendsearch\service\FacebookService.class
+com\miage\trendsearch\DAO\UserRepository.class
+com\miage\trendsearch\TrendSearchApplication.class
+com\miage\trendsearch\service\UserService.class
+com\miage\trendsearch\controller\SocialNetworkController.class
+com\miage\trendsearch\controller\UserController.class
+com\miage\trendsearch\service\UserServiceImpl.class
