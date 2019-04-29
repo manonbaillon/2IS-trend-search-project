@@ -24,4 +24,4 @@ Note: (You have to make sure your server part is running on Netbeans)
 - Save all modifications, now you can run the project and test it using ReactJS or Postman
 
 If you face any problem you can contact us.
-- Manon BAILLON, Andréa COTTAIS, Jean Paul Douglas KAMSEU MONGO -
+-Manon BAILLON, Andréa COTTAIS, Jean Paul Douglas KAMSEU MONGO-
