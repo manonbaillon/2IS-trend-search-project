@@ -20,7 +20,7 @@ Note: (You have to make sure your server part is running on Netbeans)
         spring.data.mongodb.host     = localhost
         spring.data.mongodb.port     = 27017
         spring.data.mongodb.database = springboot-trendsearch
-- The default port is set as 8081. If you want, you can modify it in the application.yml
+- The default URL port is set as 8081. If you want, you can modify it in the application.yml
 - Save all modifications, now you can run the project and test it using ReactJS or Postman
 
 If you face any problem you can contact us.
